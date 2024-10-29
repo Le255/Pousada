@@ -1,0 +1,197 @@
+.container__faixa{
+    background-color: #92A591;
+    width: 643px;
+    height: 41px;
+    border: 0vh;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container__img{
+    position: relative;
+    top: -80px;
+    margin-left: 34rem;
+    width: 20%;
+}
+
+.container__titulo{
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    background-color: #C4CBC1;
+    position: relative;
+    top: -10px;
+    width: 643px;
+    height: 660px;
+    border: 0vh;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.informacoes{
+    position: relative;
+    top: 12px;
+    left: 7px;
+}
+
+.container__linha{
+    position: relative;
+    right: 13rem;
+    width: 210px;
+    border: 1px solid black;
+}
+
+.container__dados{
+    position: relative;
+    left: 1rem;
+    background-color: #D9D9D9;
+    width: 325px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.nome{
+    position: relative;
+    left: 1rem;
+}
+
+.texto{
+    margin: 5px;
+}
+
+.container__sobrenome{
+    position: relative;
+    left: 1rem;
+    background-color: #D9D9D9;
+    width: 187px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.container__data{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 67px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+    top: -50px;
+    left: 1rem;
+}
+
+.data{
+    position: relative;
+    top: -50px;
+    left: 1rem;
+}
+
+.container__hospedes{
+    background-color: #D9D9D9;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: -75px;
+    margin-left: 15rem;
+}
+
+.hospedes{
+    position: relative;
+    top: -80px;
+    margin-left: 15rem;
+}
+
+.container__suite{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 67px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+    top: -50px;
+    left: 1rem;
+}
+
+.suite{
+    position: relative;
+    top: -50px;
+    left: 1rem;
+}
+
+.container__preco{
+    position: relative;
+    top: -20px;
+    background-color: #D9D9D9;
+    width: 115px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+    left: 1rem;
+}
+
+.preco{
+    position: relative;
+    top: -20px;
+    left: 1rem;
+}
+
+.container__pagamento{
+    background-color: #D9D9D9;
+    width: 325px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: -30px;
+    left: 1rem;
+}
+
+.pagamento{
+    position: relative;
+    top: -30px;
+    left: 1rem;
+}
+
+.btn.btn-cancelar.btn-sm{
+    position: relative;
+    top: 10px;
+    width: 130px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #526F50;
+}
+
+.btn.btn-confirmar.btn-sm{
+  position: relative;
+  top: 10px;
+  left: 24rem;
+  width: 130px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #526F50;
+}
+
+.btn.btn-cancelar.btn-sm:hover{
+  background-color: #3b4b3a;
+}
+
+.btn.btn-confirmar.btn-sm{
+  background-color: #3b4b3a;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+}

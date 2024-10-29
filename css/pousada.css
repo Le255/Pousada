@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.body-content{
+    flex: 1;
+    display: flex;
+    background-color: #EEEEEE;
+}
+
+.container__logo{
+    position: absolute;
+    width: 200px;
+    right: 35%;
+    top: 20px;
+    
+}
+
+.container__quebra{
+    position: absolute;
+    left: 24%;
+    top: -15rem;
+    width: 30%;
+}
+
+.container__titulo{
+    position: absolute;
+    color: #526F50;
+    left: 30%;
+    top: 75px;
+}
+
+.container__descricao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagens{
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.titulo__secundario{
+    font-weight: bold;
+}
+
+.container__texto{
+    width:25em;
+    white-space: normal;
+    font-size: 20px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    padding: 20px;
+    top: 250px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}

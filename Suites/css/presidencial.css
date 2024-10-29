@@ -1,0 +1,222 @@
+body{
+    background-color: #DEDCDC;
+}
+
+.container__faixa{
+    background-color:#C4CBC1;
+    position: left;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container__logo{
+    top: -35px;
+    width: 12%;  
+    position: absolute;
+    z-index: 1;
+}
+
+.container__img{
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.container__lista{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    top: -5rem;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: black;
+    margin-left: 8em;
+}
+
+.container__texto{
+    position: relative;
+    width:25em;
+    white-space: normal;
+    top: 35px;
+    margin-left: 2rem;
+}
+
+.container__linha{
+    position: relative;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 16rem;
+}
+
+.container__titulo{
+    position: relative;
+    bottom: -15px;
+    margin-left:21rem;
+    text-shadow: 1px 2px black;
+}
+
+.titulo{
+    position: relative;
+    top: 270px;
+    text-align: center;
+}
+
+.container__suite{
+    position: absolute;
+    width: 269px;
+    height: 213px;
+    border-radius: 8px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px outset black;
+}
+
+.container__caixa{
+    position: relative;
+    width: 361px;
+    height: 350px;
+    border: 1px outset black;
+    top: 15px;
+    margin-left: 55rem;
+    background-color: #C4CBC1;
+    border-radius: 10px;
+}
+
+.container__descricao{
+    position: relative;
+    width: 454px;
+    height: 410px;
+    border-radius: 10px;
+    top: -22rem;
+    border: 1px outset black;
+    margin-left: 10rem;
+    background-color: #C4CBC1;
+}
+
+.container__imagens{
+    position: relative;
+    top: -18rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens1{
+    position: relative;
+    width: 268px;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: 7rem;
+}
+
+.imagens2{
+    position: relative;
+    width: 268px;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: 10rem;
+}
+
+.imagens3{
+    position: relative;
+    width: 268px;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: 10rem;
+}
+
+.faixa__final{
+    position: relative;
+    background-color: #C4CBC1;
+    
+    height: 90px;
+    top: -15rem;
+}
+
+.btn.btn-voltar.btn-sm{
+    position: relative;
+    top: 2rem;
+    width: 130px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #526F50;
+    left: 2rem;
+}
+
+.btn.btn-proximo.btn-sm{
+    position: relative;
+    top: 2rem;
+    left: 63rem;
+    width: 130px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #526F50;
+}
+
+.link{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (min-width: 1919px){
+
+    .container__logo{
+        width: 10%;
+        position: absolute;
+        top: -3rem;
+    }
+
+    .container__caixa{
+        position: relative;
+        left: 15rem;
+    }
+
+    .container__descricao{
+        position: relative;
+        left: 15rem;
+    }
+
+    .container__titulo{
+        position: relative;
+        top: 0px;
+        left:15rem;
+    }
+
+    .container__linha{
+        position: relative;
+        top: -5px;
+        left: 15rem;
+    }
+
+    .imagens1{
+        position: relative;
+        left: 16rem;
+    }
+
+    .imagens2{
+        position: relative;
+        left: 16rem;
+    }
+
+    .imagens3{
+        position: relative;
+        left: 16rem;
+    }
+
+    .btn.btn-voltar.btn-sm{
+        position: relative;
+    }
+
+    .btn.btn-proximo.btn-sm{
+        position: relative;
+        left: 100rem;
+    }    
+}

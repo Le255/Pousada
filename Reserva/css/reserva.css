@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container__faixa{
+    background-color:#C4CBC1;
+    position: left;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container__logo{
+    top: -35px;
+    width: 12%;  
+    position: absolute;
+    z-index: 1;
+}
+
+.container__img{
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.container__lista{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    top: -5rem;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: black;
+    margin-left: 8em;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    width: 1000px; 
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navbar .form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item h6 {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.nav-item a.nav-link {
+    font-size: 1rem;
+}
+
+.img-fluid.rounded-start{
+    height: 250px;
+}
+
+.avaliacao{
+    font-weight: bold;
+    position: relative;
+    right: 12rem;
+    top: -4rem;
+}
+
+.estrelas{
+    position: relative;
+    top: 5px;
+}
+
+.mini__caixa{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c9d8c2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.caixa{
+    position: relative;
+    left: 12rem;
+    top: -7rem;
+    width: 280px;
+    height: 140px;
+    background-color: #c9d8c2;
+    border-radius: 10px;
+}
+
+.btn-botao {
+    width: 160px;
+    height: 31px;
+    padding: 10px 20px;
+    background-color: #92A591;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: -4rem;
+    left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-botao:hover {
+    background-color: #7e8d7b;
+}
+
+.preco{
+    font-weight: bold;
+    position: relative;
+    left: 13rem;
+}
+
+.card-text{
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+}
+
+.container__cards{
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 250px;
+    width: 840px; 
+    display: flex;
+    margin: auto;
+}
+
+.favoritos{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -5rem;
+    right: 12rem;
+}
+
+.favoritar{
+    position: relative;
+    top: -105px;
+    right: 10rem;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
